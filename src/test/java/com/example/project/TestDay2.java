@@ -9,7 +9,7 @@ import java.io.*;
 public class TestDay2 {
     @Test
     public void testSortNames() {
-        String[] names = {"John", "Matt", "Lucy", "Nina", "Roxy", "Andrew", "Henry", "Donnie", "Sasha", "Mohammad", "Elsa", "Ruby"};
+        String[] names = {"Johnny", "Matt", "Lucy", "Nina", "Roxy", "Andrew", "Henry", "Donnie", "Sasha", "Mohammad", "Elsa", "Ruby"};
         String[][] result = Day2.nameSort(names);
 
         //assert results
